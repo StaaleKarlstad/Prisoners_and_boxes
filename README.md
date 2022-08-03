@@ -1,6 +1,6 @@
 # Prisoners and Boxes
 
-This program simulates the solution to the "Prisoners and boxes"-riddle
+This program simulates the solution to the "Prisoners and Boxes"-riddle
 
 # The problem
 
