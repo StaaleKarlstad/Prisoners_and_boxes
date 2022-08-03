@@ -1,5 +1,9 @@
 # Prisoners and Boxes
 
+This program simulates the solution to the "Prisoners and boxes"-riddle
+
+# The problem
+
 There are 100 prisoners living in solitary cells in a prison. 
 The warden wants to give them a chance to earn their freedom by «solving» a puzzle 
 with potentially extreme outcomes:
@@ -17,7 +21,9 @@ the same to all prisoners).
 If all of the prisoners manage to find their number they all walk free, but if as much as one 
 fails they are all executed.
 
-# What is the best strategy the prisoners can apply?
+What is the best strategy the prisoners can apply?
+
+# Solution
 
 The best strategy is for each prisoner to start by opening the box corresponding to their own number, 
 and then let the notes dictate which box to open next.
