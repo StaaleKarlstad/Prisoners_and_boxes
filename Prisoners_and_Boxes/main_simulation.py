@@ -67,7 +67,7 @@ if __name__ == '__main__':
     new_colors=['green', 'red']
     
     plt.bar(bars, values, color=new_colors)
-    plt.title('Prisoners and boxes', fontsize=14)
+    plt.title('Prisoners and Boxes', fontsize=14)
     plt.ylabel("Simulations")
     plt.xlabel("Outcomes")
     plt.text(0, values[0], f'{success}', fontsize=14, ha="center", va="bottom")
