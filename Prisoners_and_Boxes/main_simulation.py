@@ -17,7 +17,7 @@ def generate_boxes_with_notes(box_list, note_list):
 def generate_prisoners(prisoner_list):
         prisoner_list.clear()
         for x in range(1, 101):
-            prisoner_list.append(Prisoner(x,x))
+            prisoner_list.append(Prisoner(x, x))
     
 def check_for_correct_note(box_list, prisoner):
         box_index = (prisoner.check_next_box) - 1                                               
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     success = 0
     failure = 0
 
-    rounds=int(input("Rounds of simulations:(int) "))
+    rounds = int(input("Rounds of simulations:(int) "))
 
     for round in range(rounds):
         all_boxes = []

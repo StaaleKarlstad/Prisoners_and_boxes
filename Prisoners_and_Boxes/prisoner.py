@@ -1,8 +1,6 @@
 
 class Prisoner:
 
-    
-
     def __init__(self, number, number2):
         self.number = number
         self.check_next_box = number2
